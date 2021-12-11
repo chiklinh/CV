@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Developer - Resume</title>
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link href='styles/boxicons.min.css' rel='stylesheet'> -->
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="styles/fonts.googleapis.com.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- SIDEBAR START -->
+    <div class="sidebar">
+        <i class='bx bx-menu' id="btn"></i>
+
+        <!-- PROFILE IMAGE -->
+        <div class="profile">
+            <img src="./images/Untitled.png" alt="profile image">
+            <div class="name">
+                Trần Văn Chí <span>Linh</span>
+            </div>
+            <div class="position">Back End Developer</div>
+        </div>
+
+        <!-- PERSONAL INFO -->
+        <section class="personal-info">
+
+            <div class="property">
+                <i class='bx bx-calendar'></i>
+                <span class="property-name">21/01/1995</span>
+            </div>
+
+            <div class="property">
+                <i class='bx bx-calendar-heart'></i>
+                <span class="property-name">Độc thân</span>
+            </div>
+
+            <div class="property">
+                <i class='bx bx-mail-send'></i>
+                <span class="property-name">tranvanchilinh2101@gmail.com</span>
+            </div>
+
+            <div class="property">
+                <i class='bx bx-phone-call'></i>
+                <span class="property-name">0916.623.321</span>
+            </div>
+
+            <div class="property">
+                <i class='bx bx-home'></i>
+                <span class="property-name">
+                    <span>Số 67/50/9/11 - KP8,</span>
+                    <span>đường 38, P.Hiệp Bình Chánh</span>
+                    <span>Thủ Đức, Tp.HCM</span>
+                </span>
+            </div>
+
+        </section>
+
+        <!-- SOCIAL MEDIA -->
+        <section class="social-media">
+            <!-- <a href="#"><i class='bx bxl-instagram-alt'></i></a> -->
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a> <!-- Linked icon-->
+            <i class='bx bxl-github'></i> <!-- GitHub icon-->
+            <i class='bx bxl-facebook-square' style="color:blue" alt="Facebook"></i>
+            <!--FACEBOOK icon-->
+        </section>
+    </div>
+    <!-- SIDEBAR END -->
+
+
+    <!-- MAIN CONTENT -->
+    <section class="main-content">
+        <!-- EXPERIENCE -->
+        <div class="cv-item">
+            <div class="cv-item-logo">
+                <i class='bx bx-briefcase-alt-2'></i>
+            </div>
+            <div class="cv-item-titel">
+                <div class="titel-name">Work Experience</div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <style>
+            .project-name {
+                text-align: center;
+            }
+
+            .position label,
+            .project-join label,
+            .integrated-technology label,
+            .tool-used label,
+            .project-task label {
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            .position label i,
+            .project-join label i,
+            .integrated-technology label i,
+            .tool-used label i,
+            .project-task label i {
+                font-weight: bold;
+                font-size: 20px;
+                color: red;
+                margin-right: 5px;
+            }
+
+            .project-task .list-task {
+                padding-left: 25px;
+            }
+
+            .project-join span a {
+                color: #093;
+            }
+
+            .project-join span a:hover {
+                color: blue;
+                font-weight: bold;
+            }
+        </style>
+        <div class="cv-item-content">
+            <div class="date"><i>03/2019 - 07/2020</i></div>
+            <div class="description">
+                <div class="company-name"><strong>CÔNG TY TNHH DỊCH VỤ VÀ CÔNG NGHỆ MINH ANH</strong></div>
+                <div class="position">
+                    <label><i class='bx bxs-user-account'></i>Vị trí:</label>
+                    <span>Lập trình viên Back End</span>
+                </div>
+                <div class="project-join">
+                    <label> <i class='bx bxs-wallet'></i>Dự án tham gia:</label>
+                    <span>
+                        <a href="https://jobee.vn/Index" target="_blank"><i><u> Jobee.vn </u></i></a>,
+                        <a href="https://shigotojp.com/Index" target="_blank"><i><u> ShigotoJP.com </u></i></a>
+                    </span>
+                </div>
+                <div class="project-join-detail">
+                    <div class="project-name cv-item-titel">
+                        <h2>Jobee.vn</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="integrated-technology">
+                        <label> <i class='bx bx-atom'></i>Công nghệ tích hợp:</label> <br>
+                        <span> ASP.Net MVC 5, Linq, Entity Framework, MongoDB, Azure, JQuery, Bootstrap, Kendo,
+                            CKEditor</span>
+                    </div>
+                    <div class="tool-used">
+                        <label><i class='bx bxs-category'></i>Công cụ sử dụng:</label> <br>
+                        <span> Visual 2019, MongoDB Studio, Robo3T, Figma.com</span>
+                    </div>
+                    <div class="project-task">
+                        <label for=""><i class='bx bx-task'></i>Task chính thực hiện:</label>
+                        <div class="list-task">
+                            <ul>
+                                <li>Lọc tin đăng tuyển dụng.</li>
+                                <li>Tìm kiếm ứng viên (cơ bản, nâng cao).</li>
+                                <li>Thiết kế giao diện CV ứng viên.</li>
+                                <li>Thiết kế giao diện đăng tin của nhà tuyển dụng.</li>
+                                <li>Thiết kế giao diện và xử lý dữ liệu bán dịch vụ(điểm).</li>
+                                <li>Thực hiện những yêu cầu phát sinh ngoài chức năng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-join-detail">
+                    <div class="project-name">
+                        <h2>ShigotoJP.com</h2>
+                    </div>
+                    <div class="integrated-technology">
+                        <label> <i class='bx bx-atom'></i>Công nghệ tích hợp:</label> <br>
+                        <span> NodeJS, MongoDB, Azure, Bootstrap</span>
+                    </div>
+                    <div class="tool-used">
+                        <label><i class='bx bxs-category'></i>Công cụ sử dụng:</label> <br>
+                        <span> VS Code, MongoDB Studio, Robo3T, Figma.com</span>
+                    </div>
+                    <div class="project-task">
+                        <label for=""><i class='bx bx-task'></i>Task chính thực hiện:</label>
+                        <div class="list-task">
+                            <ul>
+                                <li>Đọc luồng dữ liệu</li>
+                                <li>Tham gia phân tích dữ liệu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cv-item-content">
+            <div class="date">09/2017-12/2019</div>
+            <div class="description">
+                <strong>Web Developer</strong>
+                <p>@ Muster AG</p>
+                <p>Designing and implementing HTML email templates and newsletters for marketing campaigns.</p>
+            </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="cv-item">
+            <div class="cv-item-logo">
+                <i class='bx bxs-graduation'></i>
+            </div>
+            <div class="cv-item-titel">
+                <div class="titel-name">Education</div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="cv-item-content">
+            <div class="date">09/2015-10/2018</div>
+            <div class="description">
+                <p><strong>Bằng kỹ sư</strong> Ứng dụng phần mềm</p>
+                <p>tại trường Cao đẳng nghề TP.HCM</p>
+            </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="cv-item">
+            <div class="cv-item-logo">
+                <i class='bx bx-laptop'></i>
+            </div>
+            <div class="cv-item-titel">
+                <div class="titel-name">Skills</div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="cv-item-content no-border">
+            <div class="wrapper">
+
+                <div class="item-with-logo">
+                    <i class='bx bxl-html5'></i>
+                    <label class="name-skill">HTML5</label> - <label class="evaludate-skill">Tốt</label>
+                </div>
+                <div class="item-with-logo">
+                    <i class='bx bxl-javascript'></i>Javascript - Tốt
+                </div>
+                <div class="item-with-logo">
+                    <i class='bx bxl-visual-studio'></i>VSC - Tốt
+                </div>
+                <div class="item-with-logo">
+                    <i class='bx bxl-react'></i>React - Cơ bản
+                </div>
+                <div class="item-with-logo">
+                    <i class='bx bxl-angular'></i>Angular - Khá
+                </div>
+                <div class="item-with-logo">
+                    <i class='bx bxl-python'></i>Python - Cơ bản
+                </div>
+            </div>
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="cv-item">
+            <div class="cv-item-logo">
+                <i class='bx bx-conversation'></i>
+            </div>
+            <div class="cv-item-titel">
+                <div class="titel-name">Languages</div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="cv-item-content no-border">
+            <div class="wrapper">
+                <div class="item-with-logo">
+                    <div class="language">EN</div>
+                    <label>English</label> - <label>[B2]</label>
+                </div>
+
+                <div class="item-with-logo">
+                    <div class="language">JP</div>
+                    <label>Japan</label> - <label>Cơ bản</label>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- INTERESTS -->
+        <div class="cv-item">
+            <div class="cv-item-logo">
+                <i class='bx bxs-tennis-ball'></i>
+            </div>
+            <div class="cv-item-titel">
+                <div class="titel-name">Interests</div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="cv-item-content no-border">
+            <div class="wrapper">
+
+                <div class="item-with-logo">
+                    <i class='bx bx-code-alt'></i>
+                    <label>Coding</label>
+                </div>
+
+                <div class="item-with-logo">
+                    <i class='bx bx-cycling'></i>
+                    <label>Cycling</label>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const btnHamburger = document.querySelector('#btn');
+        const sidebar = document.querySelector('.sidebar');
+
+        btnHamburger.addEventListener('click', function () {
+            sidebar.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>

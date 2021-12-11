@@ -1,0 +1,25 @@
+@media screen and (min-width: 950px) {
+    body {
+        max-width: 1050px;
+        margin: 0 auto;
+        box-shadow: 10px 10px 20px rgba(0,0,0, 0.1);
+    }
+
+    .main-content {
+        .cv-item-content {
+            font-size: 1.4rem;
+            padding: 2rem 0 2rem 2rem;
+
+            .wrapper {
+                grid-template-columns: 33% 33% 33%;
+                gap: 1rem;
+
+                .item-with-logo {
+                    i {
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
