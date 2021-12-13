@@ -143,7 +143,7 @@ var model = {
             projectJoinDetail: [
                 {
                     projectName: "Tổng hợp",
-                    technology: "ASP.Net MVC 5, ASP.Net Core, ASP.Net API, Linq, Entity Framework, Angular, MINIO, Docker, nginx, CKEditor",
+                    technology: "ASP.Net MVC 5, ASP.Net Core, RESTfull API, Linq, Entity Framework, Angular, MINIO, Docker, nginx, CKEditor",
                     toolUsed: "Visual 2019, Toad for Oracle",
                     listTask: [
                         {
