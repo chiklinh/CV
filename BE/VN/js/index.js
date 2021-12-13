@@ -36,7 +36,7 @@ var model = {
     },
     experience: [
         {
-            date: "03/2019 - 07/2020",
+            time: "03/2019 - 07/2020",
             companyName: "CÔNG TY TNHH DỊCH VỤ VÀ CÔNG NGHỆ MINH ANH",
             position: "Lập trình viên Back End",
             projectJoin: [
@@ -78,6 +78,104 @@ var model = {
                     ],
                     evaludate: "Hoàn thành task trong thời hạn."
                 },
+                {
+                    projectName: "ShigotoJP.com",
+                    technology: "NodeJS, MongoDB, Azure, Bootstrap",
+                    toolUsed: "VS Code, MongoDB Studio, Robo3T, Figma.com",
+                    listTask: [
+                        {
+                            taskName: "Đọc luồng dữ liệu."
+                        },
+                        {
+                            taskName: "Tham gia phân tích dữ liệu."
+                        }
+                    ],
+                    evaludate: "Hoàn thành task trong thời hạn."
+                },
+            ]
+        },
+        {
+            time: "09/2021 - hiện tại",
+            companyName: "CÔNG TY CỔ PHẦN GIẢI PHÁP THANH TOÁN VIỆT NAM - VNPAY",
+            position: "Lập trình viên Back End",
+            projectJoin: [
+                {
+                    nameProject: "HDBank Landing Page",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " Việt Á Bank MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " Kiên Long Bank MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " VietComBank MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " Eximbank MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " EximBank Omni MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " BIDC MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                },
+                {
+                    nameProject: " HDBank MB BE",
+                    isLink: "0", //0: false, 1:true
+                    website: ""
+                }
+            ],
+            projectJoinDetail: [
+                {
+                    projectName: "Tổng hợp",
+                    technology: "ASP.Net MVC 5, ASP.Net Core, ASP.Net API, Linq, Entity Framework, Angular, MINIO, Docker, nginx, CKEditor",
+                    toolUsed: "Visual 2019, Toad for Oracle",
+                    listTask: [
+                        {
+                            taskName: "Viết service gửi mail tự động."
+                        },
+                        {
+                            taskName: "thực hiện các tính năng CRUD."
+                        },
+                        {
+                            taskName: "Update/download file trên MinIO"
+                        },
+                        {
+                            taskName: "Viết kịch bản cài đặt/update từng môi trường SIT, UAT, PILOT, LIVE"
+                        },
+                        {
+                            taskName: "Kiểm tra tính năng vựa theo testcase trước khi bàn giao"
+                        },
+                        {
+                            taskName: "phát triến mới các tính năng báo cáo theo nghiệp vụ của ngân hàng tương ứng"
+                        },
+                        {
+                            taskName: "Thao tác, viết lệnh truy vấn, store dựa theo nghiệp vụ yêu cầu"
+                        },
+                        {
+                            taskName: "Kiểm tra, chỉnh sửa lỗi khi phát sinh "
+                        },
+                        {
+                            taskName: "Tham gia họp làm việc trực tiếp với phia ngân hàng để làm rõ nghiệp vụ, lỗi"
+                        }
+                    ],
+                    evaludate: "Hoàn thành task trong thời hạn."
+                }
             ]
         }
     ],
@@ -87,6 +185,30 @@ var model = {
             degree: "Bằng kỹ sư",
             specialized: "Ứng dụng phần mềm",
             school: "tại trường Cao đẳng nghề TP.HCM"
+        },
+        {
+            time: "12/2021 - hiện tại",
+            degree: "chưa hoàn thành",
+            specialized: "Data Analyzing with Power BI ",
+            school: "tại Datapot"
+        },
+        {
+            time: "11/2021 - 12/2021",
+            degree: "Chứng chỉ",
+            specialized: "Quản lí thời gian và năng suất",
+            school: "tại Agilearn - Digital Learning Platform"
+        },
+        {
+            time: "11/2021 - 12/2021",
+            degree: "Chứng chỉ",
+            specialized: "Hoàn thành mọi việc với Kanban",
+            school: "tại Agilearn - Digital Learning Platform"
+        },
+        {
+            time: "11/2021 - 12/2021",
+            degree: "Chứng chỉ",
+            specialized: "Đột phá năng suất cá nhân",
+            school: "tại Agilearn - Digital Learning Platform"
         }
     ],
     skills: [
@@ -104,23 +226,84 @@ var model = {
             isImage: "1",
             style: "color: #f7df1e;"
         },
-        ,
         {
             icon: "images/icons/mongoDB.png",
             name: "MongoDB",
             evaludate: "Khá",
             isImage: "0",
             style: "color: #f7df1e;"
+        },
+        {
+            icon: "images/icons/azue-icon.png",
+            name: "Azure",
+            evaludate: "Khá",
+            isImage: "0",
+            style: ""
+        },
+        {
+            icon: "bxl-visual-studio",
+            name: "VS Code",
+            evaludate: "Khá",
+            isImage: "1",
+            style: "color: #23a7ea;"
+        },
+        {
+            icon: "bxl-react",
+            name: "React",
+            evaludate: "Cơ bản",
+            isImage: "1",
+            style: "color: #e21b5f;"
+        },
+        {
+            icon: "bxl-angular",
+            name: "Angular",
+            evaludate: "Khá",
+            isImage: "1",
+            style: "color: #e93e30;"
+        },
+        {
+            icon: "images/icons/gitlab-icon.png",
+            name: "GitLab",
+            evaludate: "Khá",
+            isImage: "0",
+            style: "color: #e93e30;"
+        },
+        {
+            icon: "images/icons/github-icon.png",
+            name: "GitHub",
+            evaludate: "Khá",
+            isImage: "0",
+            style: "color: #e93e30;"
+        },
+        {
+            icon: "images/icons/SQL-ICON.jpg",
+            name: "SQL",
+            evaludate: "Khá",
+            isImage: "0",
+            style: "color: #e93e30;"
+        },
+        {
+            icon: "images/icons/oracle-icon.png",
+            name: "ORACLE",
+            evaludate: "Khá",
+            isImage: "0",
+            style: "color: #e93e30;"
         }
-
     ],
     language: [
         {
             code: "EN",
-            name: "English",
+            name: "Tiếng Anh",
             achievements: "[B2]",
             isImage: "1",
             style: "color: #e93e30;; background-color: blue;"
+        },
+        {
+            code: "JP",
+            name: "Tiếng Nhật",
+            achievements: "[B2]",
+            isImage: "1",
+            style: "color: white; background-color: red;"
         }
     ],
     interests: [
@@ -162,8 +345,7 @@ function loadProfileInfo() {
     profileInfoModel.link.forEach(e => {
         contentSocialMedia += `
         <a href="${e.link.length > 0 ? e.link : ''}" target="_blank">
-        <i class='bx ${e.icon}' ${e.color.length > 0 ? 'style="color:' + e.color + '"' : ""}></i></a>
-        `
+        <i class='bx ${e.icon}' ${e.color.length > 0 ? 'style="color:' + e.color + '"' : ""}></i></a>`
     });
     getElementById('social-media').innerHTML = contentSocialMedia
 }
@@ -171,8 +353,9 @@ function loadProfileInfo() {
 function loadWorkExperience() {
     var lstExperience = model.experience;
     var contentExperience = "";
+    console.log(lstExperience)
     lstExperience.forEach(e => {
-        contentExperience = `
+        contentExperience += `
         <div class="cv-item-content">
                 <div class="date"><i>${e.time}</i></div>
                 <div class="description">
@@ -195,7 +378,7 @@ function loadWorkExperience() {
 function loadProjectJoin(lstProjectJoin) {
     var contentProjectJoin = "";
     lstProjectJoin.forEach(e => {
-        contentProjectJoin += `<a href="${e.website}" target="_blank"><i><u> ${e.nameProject} </u></i></a>,`
+        contentProjectJoin += `<a href="${e.website}" target="_blank"><i> ${e.nameProject} </i></a>,`
     })
     return contentProjectJoin;
 }
@@ -265,8 +448,7 @@ function loadListSkill() {
                 : `<img src="${e.icon}" alt="">`
             }
             <label class="name-skill">${e.name}</label> - <label class="evaludate-skill">${e.evaludate}</label>
-        </div>
-        `;
+        </div>`;
     })
     return contentSkill;
 }
@@ -277,11 +459,24 @@ function loadLangage() {
     languageModel.forEach(e => {
         contentLanguage += `
         <div class="item-with-logo">
-            <div class="language" style="color: white; background-color: blue;">EN</div>
+            <div class="language" style="${e.style}">${e.code}</div>
             <label>English</label> - <label>[B2]</label>
         </div>`
     })
     return contentLanguage;
+}
+
+function loadInterest() {
+    var interestModel = model.interests;
+    var contentInterest = "";
+    interestModel.forEach(e => {
+        contentInterest += `
+            <div class="item-with-logo">
+                <i class='bx ${e.icon}'></i>
+                <label>${e.name}</label>
+            </div>`
+    })
+    return contentInterest;
 }
 
 loadProfileInfo();
@@ -289,4 +484,5 @@ getElementById('list-experience').innerHTML = loadWorkExperience()
 getElementById('education').innerHTML = loadEducation();
 getElementById('skill').innerHTML = loadListSkill()
 getElementById('language').innerHTML = loadLangage()
+getElementById('interest').innerHTML = loadInterest()
 
